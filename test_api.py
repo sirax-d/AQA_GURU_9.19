@@ -1,6 +1,6 @@
 import requests
 from jsonschema import validate
-from schemas import *
+from schemas import schema_create_user, schema_users_list, schema_register, schema_delay_response
 
 url = 'https://reqres.in/api/users/'
 name_user = 'Test'
